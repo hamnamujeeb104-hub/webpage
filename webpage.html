@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resin by hunar_ur_hath</title>
+ <style>
+    body{
+        background: linear-gradient(rgb(255, 232, 236),lightblue);
+    }
+    h1{
+        animation: up 2s infinite;
+        text-align: center;
+    }
+    @keyframes up{
+        0%{transform: translateY(0);}
+        50%{transform: translateY(-10px);}
+    }
+    .box{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        padding: 20px;
+    }
+    .card{
+        background: rgb(199, 191, 192);
+        padding: 30px;
+        border-radius: 25px;
+        box-shadow: 5px 5px 15px rgb(238, 234, 234);
+        transition: 0.3s;
+        overflow: hidden;
+    }
+    .card img{
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+
+    }
+    .card:hover{
+        transform: scale(1.1);
+    }
+    @media (max-width:700px){
+        .box{ grid-template-columns: 1fr;}
+    }
+    nav {
+        text-align: right;
+    }
+    nav a {
+        display: inline-block;
+        background-color: rgb(207, 54, 79);
+        color: white;
+        padding: 20px 30px;
+        margin: 10px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    nav a {
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+        transition: all 0.3s ease;
+    }
+    nav a:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    header img{
+        width: 300px;
+        height: 500%;
+    }
+    header h1{
+        margin: 100;
+    }
+    
+</style>
+</head>
+<body> 
+    
+    <header> 
+        <img src="logo.png.lnk" alt="resin by hunar_ur_hath" width="200">
+    <h1>Resin by hunar_ur_hath</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    </header>
+    
+
+    <div class="box" id="home">
+        <div class="card">
+            <img src="keychain.jpg">
+            <h3>resin keychain</h3>
+            <p>custom name letter</p>
+            <p class="price"><b>Rs.350</b></p>
+        </div>
+        <div class="card">
+            <img src="flower jhumka.jpg">
+            <h3>resin floral jhumka</h3>
+            <p>
+                diffrent designs avaliable
+                custom any name
+                customize any color     
+            </p>
+            <p class="price"><b>Rs.1000</b></p>
+        </div>
+        <div class="card">
+            <img src="images.jpg">
+            <h3>nikha thumb palque</h3>
+            <p>customize any name
+                diffrent color & designs avaliable
+            </p>
+            <p class="price"><b>Rs.3000</b></p>
+        </div>
+        <div class="card">
+            <img src="pen.jpg">
+            <h3>reuseable resin pen</h3>
+            <p>customize any name</p>
+            <p class="price"><b>Rs.500</b></p>
+        </div>
+        <div class="card">
+            <img src="pendent.jpg">
+            <h3>custom resin pendent</h3>
+            <p>diffrent shapes avaliable</p>
+            <p class="price"><b>Rs.500</b></p>
+        </div>
+        <div class="card">
+            <img src="rehal.jpg">
+            <h3>custom rehal with bookmark</h3>
+            <p>diffrent color & designs avaliable</p>
+            <p class="price"><b>Rs.3500</b></p>
+        </div>
+        <div class="card">
+            <img src="tasbeeh.jpg">
+            <h3>elegent customize tasbeeh</h3>
+            <p>diffrent colours avaliable</p>
+            <p class="price"><b>Rs.500</b></p>
+        </div>
+        <div class="card">
+            <img src="frame.jpg">
+            <h3>custom birthday frame</h3>
+            <p>size:10inches</p>
+            <p>10+ designs avaliable</p>
+            <p class="price"><b>Rs.3000</b></p>
+        </div>
+
+    </div>
+    <section id="about">
+        <h2>About us</h2>
+        <p>Welcome to resin by hunar_ur_hath</p>
+        <p>we create a beautiful handmade jewellery and customize gifts with love</p>
+        <p>all items diffrent design and colours avaliable</p>
+    </section>
+    <section id="contact">
+        <h2>contact us</h2>
+        <p>for orders and details contact us</p>
+
+        <a href="//www.instagram.com/hunar_ur_hath by Hamna/"
+        target="_blank">Instagram</a>
+
+        <br><br>
+
+        <a href="https://wa.me/923121807851"
+        target="_blank">
+    Contact on whatsapp</a>
+    </section>
+</body>
+</html>
+    
+
